@@ -209,7 +209,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #fff;
+		color: #645394;
 	}
 
 /* Container */
@@ -2334,7 +2334,7 @@ input, select, textarea {
 
 			#header .logo p {
 				display: inline;
-				color: #C1CAC5;
+				color: #645394;
 			}
 
 /* Nav */
