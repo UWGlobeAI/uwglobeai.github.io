@@ -2257,6 +2257,19 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 	}
 
+	.box.feature h3 {
+		font-size: 1.25em;
+		margin-top: 0.5em;
+		margin-bottom: 0.2em; /* Reduce this to decrease space between title and description */
+	}
+	
+	.box.feature p {
+		font-size: 1em;
+		line-height: 1.5;
+		margin-top: 0.2em; /* Adjust this to reduce spacing between lines */
+		margin-bottom: 5em;
+	}
+
 /* Icons */
 
 	.icon {
