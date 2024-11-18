@@ -125,8 +125,91 @@
 									</div>
 								</section>
 							</div>
+							<section class="box features">
+								<h2 class="major"><span>Our Focuses</span></h2>
+								<div class="features-wrapper">
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box feature">
+												<h3>Understanding and designing for culture in AI</h3>
+												<p>
+													How should AI-supported decision-making tools be designed to best serve people in various countries and cultures? 
+													What happens if the AI mimics a person’s culture, dialect, and other parts of a person's cultural identity?
+												</p>
+											</section>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box feature">
+												<h3>Teaching AI systems to learn cultural values</h3>
+												<p>
+													Can an AI, just like a child, grow up in a certain culture, dynamically adopt cultural values, and apply them in new contexts?
+												</p>
+											</section>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box feature">
+												<h3>Auditing Problematic Socio-Cultural Behaviors in Large Language Models</h3>
+												<p>
+													How do covert harms surface in LLM-generated conversations in non-Western contexts like caste, compared to Western ones such as race? 
+													How do LLMs affect political culture?
+												</p>
+											</section>
+										</div>
+									</div>
+									<div class="row-special">
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box feature">
+													<h3>Studying AI ethically and at scale</h3>
+													<p>
+														How can we study the perception and use of AI systems, datasets, and models with culturally diverse people? 
+														How can we do so in an ethical way? 
+													</p>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box feature">
+													<h3>Understanding and Leveraging AI for Educational Purposes in Various Cultures</h3>
+													<p>
+														How can we use AI to maximize the benefits to teachers and students among different cultures?
+													</p>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							
+							<style>
+								.features-wrapper {
+									display: flex;
+									flex-direction: column;
+									margin-bottom: -10%;
+								}
+								.row {
+									display: flex;
+									justify-content: center; /* Center items horizontally */
+									flex-wrap: wrap; /* Allow wrapping for the second row */
+								}
+							
+								.col-4 {
+									flex: 1 1 calc(33.33% - 20px); /* Adjusts column width to 33.33% for 3 columns in a row */
+									max-width: calc(33.33% - 20px);
+								}
+							
+								@media (max-width: 768px) {
+									.col-4 {
+										flex: 1 1 100%; /* Full width for smaller screens */
+										max-width: 100%;
+									}
+							
+									.row {
+										flex-wrap: wrap;
+									}
+								}
+							</style>							
+														
 							<div class="col-12">
-
 								<!-- Blog -->
 									<section class="box blog">
 										<h2 class="major"><span>WHAT DO WE MEAN BY "CULTURE"</span></h2>
@@ -161,10 +244,11 @@
 
 													</div>
 												</div>
+												<!-- Archives -->
 												<div class="col-3 col-12-medium">
 													<div class="sidebar">
 
-														<!-- Archives -->
+														
 															<ul class="divided">
 																<li>
 																	<article class="box post-summary">

@@ -262,6 +262,14 @@ input, select, textarea {
 
 /* Row */
 
+	.row-special {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+		margin-bottom: -10%;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
