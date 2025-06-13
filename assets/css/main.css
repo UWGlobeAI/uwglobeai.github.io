@@ -72,6 +72,93 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Additional CSS for Globe.AI Header - ADD TO YOUR EXISTING CSS */
+
+/* Main header section styling */
+#main .header {
+	background: linear-gradient(135deg, #645394 0%, #beafc4 100%);
+	color: #fff;
+	text-align: center;
+	padding: 4em 0;
+	margin: -6em 0 4em 0; /* Negative margin to extend beyond main padding */
+	position: relative;
+}
+
+/* Header title styling */
+#main .header h2 {
+	color: #fff;
+	font-size: 3.5em;
+	margin: 0 0 0.5em 0;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	font-weight: 700;
+}
+
+/* Header subtitle/mission statement */
+#main .header p {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 1.4em;
+	line-height: 1.6;
+	margin: 0;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 400;
+}
+
+/* Add subtle overlay pattern */
+#main .header::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	pointer-events: none;
+}
+
+/* Responsive adjustments for header */
+@media screen and (max-width: 980px) {
+	#main .header {
+		margin: -6em -40px 4em -40px; /* Account for container padding on mobile */
+		padding: 3em 40px;
+	}
+	
+	#main .header h2 {
+		font-size: 2.5em;
+	}
+	
+	#main .header p {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#main .header {
+		margin: -3em -20px 3em -20px;
+		padding: 2.5em 20px;
+	}
+	
+	#main .header h2 {
+		font-size: 2em;
+	}
+	
+	#main .header p {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#main .header {
+		margin: -3em -15px 2em -15px;
+		padding: 2em 15px;
+	}
+	
+	#main .header h2 {
+		font-size: 1.8em;
+	}
+}
+
 /* Basic */
 
 	html {
