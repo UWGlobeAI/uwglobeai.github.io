@@ -105,6 +105,14 @@ input, select, textarea {
 	font-weight: 400;
 }
 
+.logo-svg {
+	height: 40px;
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+  }
+  
+
 /* Add subtle overlay pattern */
 #main .header::before {
 	content: '';
