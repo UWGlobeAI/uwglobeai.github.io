@@ -2295,6 +2295,10 @@ input, select, textarea {
 				color: #645394;
 			}
 
+			table.default th.time {
+				width: 15%
+			}
+
 			table.default thead {
 				background: #E7EAE8;
 				color: #fff;
